@@ -49,3 +49,12 @@ console.log(`Can i enter the wig club mr bounca? : ${enterTheClub}`)
 let enterTheNewClub = ((age >= 18) && validId) || wig;
 
 let enterTheNEEEEEWClub = (validId && blackLeather) ? true : false;
+
+
+let num = 7.8;
+console.log(Math.floor(num))
+console.log(Math.ceil(num))
+
+let a = 25
+a++
+console.log(a)
