@@ -161,13 +161,13 @@ console.log('-----------------------------');
 // console.log(res)
 // Math Methods
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
-let num = 5;
-console.log(Math.pow(num, 3))
+// let num = 5;
+// console.log(Math.pow(num, 3))
 
-Math.pow = function (num, i) {
-    console.log('I am poaaaawww')
-} 
+// Math.pow = function (num, i) {
+//     console.log('I am poaaaawww')
+// } 
 
-console.log(Math.pow(num, 3))
+// console.log(Math.pow(num, 3))
 
 // Array Methods
