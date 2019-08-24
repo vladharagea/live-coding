@@ -84,4 +84,5 @@ function multiplyByFive (x){
 
 let res = addTwo(5, 20);
 let w = multiplyByFive(res);
+// multiplyByFive(addTwo(1,5))
 console.log(w)
