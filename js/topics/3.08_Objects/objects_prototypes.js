@@ -423,3 +423,9 @@ console.log(newData);
 //const students = ['krunal', 'ankit', 'appdividend', 'nehal', 'dhaval'];
 //return all item who has 'al' inside.
 //output :  ['krunal', 'nehal','dhaval']
+
+var students = [krunal, ankit, appdividend, nehal, dhaval];
+function checkLetters(name) {
+   return name.includes(al)
+};
+console.log(students.filter(checkLetters))
