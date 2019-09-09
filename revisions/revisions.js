@@ -140,7 +140,7 @@ const names = [
 //   console.log(name);
 // });
 
-// A common use case for forEach, is t modify each element of an array
+// A common use case for forEach, is to modify each element of an array
 // const roster = [];
 // names.forEach((name, i) => {
 //   roster.push(`${i + 1}: ${name}`);
@@ -158,7 +158,7 @@ const names = [
 
 // let nameList = "";
 
-//// Another common use case for a forEach is to convert an array into a different value
+// // Another common use case for a forEach is to convert an array into a different value
 // names.forEach((name, i) => {
 //   const separator = i === names.length - 1 ? "" : ", ";
 //   nameList += name + separator;
