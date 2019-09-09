@@ -49,7 +49,7 @@ const names = [
   "Itamar"
 ];
 
-// A callback is a function that will be called sometime later
+// A callback is a function that will be called sometime later (we don't have any control on when it is called)
 const nameBeginsWithM = name => {
   return name[0].toUpperCase() === "M";
 };
