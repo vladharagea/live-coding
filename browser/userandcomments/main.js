@@ -60,7 +60,7 @@ onRefreshDisplayData = () => {
         displayComments();
 };
 
-document.body.onload = onRefreshDisplayData;
+window.onload = onRefreshDisplayData;
 
 
 /*
@@ -115,6 +115,9 @@ userSubmitObj.onclick = () => {
     let form = document.getElementById('user-form'); // document.forms.userForm;
     let userTbody = document.getElementById('user-tbody');
 
+    if (usersArray == null)
+        usersArray = [];
+
     //first store new user object in the array 
     usersArray.push({
         id: userTbody.rows.length + 1,
@@ -126,7 +129,7 @@ userSubmitObj.onclick = () => {
     localStorage.setItem("users", JSON.stringify(usersArray));
 
     //after submmiting form, clear the elements/control value
-    form.reset();
+    form.reset()
 
     //it prevent onclick conflict event with other
     //e.preventDefault(); or return false
@@ -141,6 +144,9 @@ commentSubmitObj.onclick = (e) => {
 
     let form = document.getElementById('comment-form'); // document.forms.userForm;
     let commentTbody = document.getElementById('comment-tbody');
+
+    if (commentsArray == null)
+        commentsArray = [];
 
     //first store new user object in the array 
     commentsArray.push({
