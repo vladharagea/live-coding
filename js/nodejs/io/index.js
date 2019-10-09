@@ -63,7 +63,7 @@ fs.readFile("./data.json", "utf8", (err, data) => {
   dataObj.names.forEach(e => {
     console.log(e);
   });
-  console.log("");
+
   const res = dataObj.names.concat(ourNames);
   dataObj.names = res;
   const resJson = JSON.stringify(dataObj);
