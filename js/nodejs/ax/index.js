@@ -1,16 +1,20 @@
-const axios = require("axios");
-// const url = "https://official-joke-api.appspot.com/random_joke";
+// const axios = require("axios");
+// // const url = "https://official-joke-api.appspot.com/random_joke";
 
-// axios.get(url).then(response => {
-//   let joke = response.data;
+// // axios.get(url).then(response => {
+// //   let joke = response.data;
 
-//   console.log(joke.setup);
-//   for (let i = 0; i < 20; i++) {
-//     console.log(`|`);
-//   }
-//   console.log(joke.punchline);
-// });
-// https://rickandmortyapi.com/api/character/?name=rick&status=alive
+// //   console.log(joke.setup);
+// //   for (let i = 0; i < 20; i++) {
+// //     console.log(`|`);
+// //   }
+// //   console.log(joke.punchline);
+// // });
+
+////////////////////////////
+////////////////////////////
+////////////////////////////
+// // https://rickandmortyapi.com/api/character/?name=rick&status=alive
 
 const name = process.argv[2];
 const url = `https://rickandmortyapi.com/api/character/?name=${name}`;
